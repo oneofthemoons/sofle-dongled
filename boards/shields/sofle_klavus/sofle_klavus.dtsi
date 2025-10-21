@@ -5,6 +5,11 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "sofle_klavus-layout.dtsi"
+
+&sofle_klavus_layout {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
