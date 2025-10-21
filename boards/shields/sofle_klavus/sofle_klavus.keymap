@@ -11,6 +11,10 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#ifdef ZMK_POINTING_DEFAULT_SCRL_VAL
+    #undef ZMK_POINTING_DEFAULT_SCRL_VAL
+#endif
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #define BASE 0
