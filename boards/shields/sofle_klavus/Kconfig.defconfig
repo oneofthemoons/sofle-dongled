@@ -2,7 +2,7 @@ if SHIELD_SOFLE_KLAVUS_DONGLE
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Sofle Klavus"
+    default "Sofle-Klavus"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
